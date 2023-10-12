@@ -5,6 +5,11 @@ auth:
     password: $PASSWORD
 images:
   #k8s.gcr.io/metrics-server/metrics-server: index.docker.io/xlong9527/metrics-server
-  registry.k8s.io/ingress-nginx/controller:v1.9.1: index.docker.io/xlong9527/ingress-nginx-controller
-  registry.k8s.io/ingress-nginx/kube-webhook-certgen:v20230407: index.docker.io/xlong9527/ingress-nginx-kube-webhook-certgen
+  #registry.k8s.io/ingress-nginx/controller:v1.9.1: index.docker.io/xlong9527/ingress-nginx-controller
+  #registry.k8s.io/ingress-nginx/kube-webhook-certgen:v20230407: index.docker.io/xlong9527/ingress-nginx-kube-webhook-certgen
+  registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.8.0: index.docker.io/xlong9527/rook-csi-node-driver-registrar:v2.8.0
+  registry.k8s.io/sig-storage/csi-resizer:v1.8.0:     index.docker.io/xlong9527/rook-csi-resizer:v1.8.0           
+  registry.k8s.io/sig-storage/csi-provisioner:v3.5.0: index.docker.io/xlong9527/rook-csi-provisioner:v3.5.0        
+  registry.k8s.io/sig-storage/csi-snapshotter:v6.2.2: index.docker.io/xlong9527/rook-csi-snapshotter:v6.2.2      
+  registry.k8s.io/sig-storage/csi-attacher:v4.3.0:    index.docker.io/xlong9527/rook-csi-attacher:v4.3.0
    
