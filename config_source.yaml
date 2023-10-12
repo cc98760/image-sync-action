@@ -1,6 +1,6 @@
 auth:
   registry.cn-shenzhen.aliyuncs.com:
-    username: $dockerhub_USERNAME
-    password: $dockerhub_PASSWORD
+    username: $DOCKERHUB_USERNAME
+    password: $DOCKERHUB_PASSWORD
 images:
    k8s.gcr.io/metrics-server/metrics-server: xlong9527/metrics-server
