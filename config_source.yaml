@@ -4,4 +4,4 @@ auth:
     username: $DOCKERHUB_USERNAME
     password: $DOCKERHUB_PASSWORD
 images:
-   k8s.gcr.io/metrics-server/metrics-server: xlong9527/metrics-server
+   k8s.gcr.io/metrics-server/metrics-server: index.docker.io/xlong9527/metrics-server
