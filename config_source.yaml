@@ -5,6 +5,6 @@ auth:
     password: $PASSWORD
 images:
   #k8s.gcr.io/metrics-server/metrics-server: index.docker.io/xlong9527/metrics-server
-  registry.k8s.io/ingress-nginx/controller:v1.9.1: xlong9527/ingress-nginx-controller
+  registry.k8s.io/ingress-nginx/controller:v1.9.1: index.docker.io/xlong9527/ingress-nginx-controller
   registry.k8s.io/ingress-nginx/kube-webhook-certgen:v20230407: index.docker.io/xlong9527/ingress-nginx-kube-webhook-certgen
    
