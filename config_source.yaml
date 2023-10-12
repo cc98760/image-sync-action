@@ -1,7 +1,7 @@
 auth:
   registry.k8s.io:
   index.docker.io:
-    username: $DOCKERHUB_USERNAME
-    password: $DOCKERHUB_PASSWORD
+    username: $USERNAME
+    password: $PASSWORD
 images:
    k8s.gcr.io/metrics-server/metrics-server: index.docker.io/xlong9527/metrics-server
