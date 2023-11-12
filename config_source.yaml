@@ -12,5 +12,5 @@ images:
   registry.k8s.io/sig-storage/csi-provisioner:v3.5.0: index.docker.io/xlong9527/rook-csi-provisioner:v3.5.0        
   registry.k8s.io/sig-storage/csi-snapshotter:v6.2.2: index.docker.io/xlong9527/rook-csi-snapshotter:v6.2.2      
   registry.k8s.io/sig-storage/csi-attacher:v4.3.0:    index.docker.io/xlong9527/rook-csi-attacher:v4.3.0
-  ghcr.io/digininja/dvwa:f221d07   index.docker.io/xlong9527/dvwa:f221d07
+  ghcr.io/digininja/dvwa:f221d07:   index.docker.io/xlong9527/dvwa:f221d07
    
